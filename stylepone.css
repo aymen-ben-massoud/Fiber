@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Archivo+Black&family=Bai+Jamjuree:wght@400;600&family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,800&family=Barlow+Semi+Condensed:wght@500;600&family=Hurricane&family=Inter:wght@200;400;700&family=Josefin+Sans:ital,wght@0,300;1,300&family=Kalam:wght@300;400;700&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@100;200;400;600;900&family=PT+Serif:wght@700&family=Pacifico&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spartan:wght@400;500;700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Alata', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Hurricane', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kalam', cursive;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'PT Serif', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Spartan', sans-serif;
+    overflow-x: hidden;
+}
+.navbar-brand{
+    color: #541ada!important; 
+}
+.navcentertext a {
+   
+    font-weight: 500;
+    color: black!important;
+}
+.changenav{
+    position: fixed;
+    
+    top: 0;
+    z-index: 3;
+    width: 100%;
+   
+}
+#move{
+    transform: translateX(-110%);
+transition: all 1.4s  ease-in-out;
+}
+#move2{
+    transform: translateX(110%);
+    transition: all 1.4s  ease-in-out;
+}
+.navcentertext a:hover{
+    opacity: 0.9;
+    border-bottom: 2px solid #541ada;
+    
+}
+nav{
+    height:  60px!important;
+    
+} 
+nav form button:first-child{
+    border: unset;
+    font-weight: 500;
+    color: black!important;
+   
+}
+
+nav form button:first-child:hover{
+color: black!important;
+    font-weight: 500;
+    background-color: whitesmoke!important;
+ 
+    opacity: 0.8;
+}
+
+
+nav form button:nth-child(2){  
+    background-color: #541ada;
+    color: whitesmoke;
+    font-weight: 500;
+}
+nav form button:nth-child(2):hover{  
+    background-color: whitesmoke;
+    color:#541ada;
+    font-weight: 500;
+    border: 1px solid #541ada !important;
+    transition: all 0.5s;
+} 
+
+.firstimg{
+    width: 550px;
+    height: 550px;
+    }
+    .first-left , .first-right{
+        height: calc(100vh - 60px  );
+
+    }
+.btnstart{
+
+    background-color: #541ada;
+    color: whitesmoke;
+    font-weight: 500;
+}
+.btnstart:hover{
+
+    background-color: whitesmoke;
+    color:#541ada;
+    font-weight: 500;
+    border: 1px solid #541ada !important;
+    transition: all 0.5s;
+}
+.thea{
+    color:#541ada;
+text-decoration:underline;
+}
+.thea:hover{
+    color:#541ada;  
+}
+.whyfiber{
+    color:#541ada; 
+    font-weight: 600;
+}
+.textwithimage{
+    background-color: #541ada;
+    height: fit-content;
+}
+.bimage{
+    color: #541ada;
+    font-weight: 700;
+
+}
+.bimage:hover{
+    color: #541ada; 
+}
+
+.card-title{
+    font-size: 12px;
+   line-height: 0%;
+
+}
+
+.card-title p:nth-child(1){
+    color: #541ada!important; 
+    font-weight: 600;
+}
+.btnofcard{
+    color: #541ada;
+    font-weight: 600;
+    border: 0.5px solid rgb(209, 208, 208);
+}
+.btnofcard:hover{
+    color: #541ada;
+    font-weight: 600;
+    border: 0.5px solid rgb(209, 208, 208);
+}
+footer{
+    font-weight: 500;
+    background-color: whitesmoke!important;
+}
+footer div h1{
+    font-size: 20px;
+}
+footer div div p{
+    font-size: 15px;
+}
+.opacitybefor{
+    width: 0px;
+    opacity: 0;
+   
+}
+.opacityafter{
+    width: 100%;
+    opacity: 1;
+
+}
+
+.skew:hover
+{transform: skew(3deg)!important;
+    transition: all 0.3s ease!important;
+
+}
+.changingbefor{
+    width: 0px;
+    opacity: 0;  
+  
+}
+.changingafter{
+    width: 100%;
+    opacity: 1;
+      
+}
+@media only screen and (max-width: 700px) {
+   
+    .firstimg{
+        width: 350px;
+        height: 350px;
+        }
+.first-right{
+    height: fit-content;
+}
+.navbar-collapse{
+  backdrop-filter: blur(4px);
+text-align: center;
+    z-index: 2;
+
+}
+.form-inline{
+    text-align: center;
+}
+}
+.scrol{
+    width: 50px;
+    height: 50px;
+    background-color: #541ada;
+    color: aliceblue;
+    border-radius: 50px;
+    bottom: 10px;
+    right:  0px ;
+    position: fixed; 
+ text-align: center;
+ padding-top: 10px ;
+ cursor: pointer;
+
+}
